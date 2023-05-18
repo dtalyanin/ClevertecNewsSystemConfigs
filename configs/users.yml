@@ -24,7 +24,7 @@ spring:
   datasource:
     username: postgres
     password: postgres
-    url: jdbc:postgresql://localhost:5432/uas
+    url: jdbc:postgresql://postgres:5432/uas
 
   liquibase:
     enabled: true
