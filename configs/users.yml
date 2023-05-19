@@ -22,6 +22,7 @@ spring:
         format_sql: true
 
   datasource:
+    driver-class-name: org.postgresql.Driver
     username: postgres
     password: postgres
     url: jdbc:postgresql://postgres:5432/uas
