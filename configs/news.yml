@@ -18,7 +18,7 @@ spring:
     driver-class-name: org.postgresql.Driver
     username: postgres
     password: postgres
-    url: jdbc:postgresql://postgres:5432/nms
+    url: jdbc:postgresql://localhost:5432/nms
 
   liquibase:
     enabled: true
